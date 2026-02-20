@@ -46,5 +46,3 @@ Resume → Text Extraction → Skill Detection → ATS Scoring → Role Predicti
 * LinkedIn job integration
 * LLM-based resume rewriting
 * Multi-format resume support
-
-Developed as a Full-Stack AI Final Year Project

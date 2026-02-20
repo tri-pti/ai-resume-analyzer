@@ -1,0 +1,8 @@
+{
+  "programming": ["python","java","c","c++","r","javascript"],
+  "web": ["html","css","react","node","flask"],
+  "database": ["sql","mysql","mongodb"],
+  "ai_ml": ["machine learning","deep learning","nlp"],
+  "tools": ["git","github","power bi","blender"],
+  "soft_skills": ["team","teamwork","problem-solving","communication"]
+}

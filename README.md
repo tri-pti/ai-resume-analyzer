@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Flask](https://img.shields.io/badge/Backend-Flask-black)
+![React](https://img.shields.io/badge/Frontend-React-61DAFB)
+![NLP](https://img.shields.io/badge/NLP-spaCy-green)
+![Status](https://img.shields.io/badge/Project-Completed-success)
 # AI Resume Analyzer & Career Recommendation System
 
 An AI-powered web application that analyzes resumes, evaluates ATS compatibility, predicts suitable job roles, and provides improvement suggestions.

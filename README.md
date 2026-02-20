@@ -1,16 +1,50 @@
-# React + Vite
+# AI Resume Analyzer & Career Recommendation System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered web application that analyzes resumes, evaluates ATS compatibility, predicts suitable job roles, and provides improvement suggestions.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Resume skill extraction using NLP (spaCy)
+* ATS compatibility scoring
+* Job role prediction
+* Career role comparison
+* Resume improvement suggestions
+* Interactive dashboard (React)
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Frontend: React.js
+* Backend: Flask (Python)
+* NLP: spaCy
+* API: REST Architecture
 
-## Expanding the ESLint configuration
+## System Workflow
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Resume → Text Extraction → Skill Detection → ATS Scoring → Role Prediction → Suggestions → Visualization
+
+## How It Works
+
+1. Upload resume (PDF)
+2. Extract skills using NLP
+3. Calculate ATS score
+4. Predict best job role
+5. Suggest improvements
+
+## Run Locally
+
+1. Backend
+* cd backend
+* pip install -r requirements.txt
+* python app.py
+2. Frontend
+* cd frontend
+* npm install
+* npm run dev
+
+## Future Improvements
+
+* LinkedIn job integration
+* LLM-based resume rewriting
+* Multi-format resume support
+
+Developed as a Full-Stack AI Final Year Project
